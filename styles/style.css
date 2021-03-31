@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: 50px;
+}
+
+.grid-container {
+    display: flex;
+}
+.image-article {
+    width: 100%;
+    margin: 0;
+}
+
+.grid-container .container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+
+.title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: lighter;
+    font-size: 2.25em;
+    color: #666666;
+    margin: 0;
+    margin-bottom: 0.625em;
+}
+
+.description {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: normal;
+    font-size: 1em;
+    color: #666666;
+    width: 56%;
+    margin: 0;
+    line-height: 27px;
+}
+
+.colors {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.colors img {
+    margin: 0;
+    padding: 10px;
+}
+
+.price {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 2.25em;
+    color: #666666;
+}
+
+.button-cart {
+    width: 135px;
+    height: 42px;
+    background: #88c9f6 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    border: none;
+    opacity: 1;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: normal;
+    font-size: 0.875em;
+    color: #666666;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    /*     margin: 2em auto; */
+    width: 60;
+}
+
+.slider {
+    margin: 0;
+    padding: 10px;
+}
